@@ -25,7 +25,11 @@ public class EmailConfig {
 				System.out.println("配置文件错误");
 				System.out.println("Configuration file error");
 			}else {
-				es.setDebug(true);
+				if ( "true" == properties.get(debug) ) {
+					es.setDebug(true);
+				}else {
+					es.setDebug(false);
+				}
 				es.setHost(properties.getProperty("host"));
 				es.setProtocol(properties.getProperty("protocol"));
 				es.setSenderAddress(properties.getProperty("senderAddress"));
