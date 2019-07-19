@@ -1,4 +1,4 @@
-# Cloud-Java-EMail
+# Cloud-Java-EMail -> 中文
 这是一个基于 Java-Mail jar 包开发的轻扩展，它仅8KB。 
 我使用了多线程来发邮件，目前仅支持HTML文本邮件。 
 由于是花了二十分钟编写的，一次通过，也没有进行大规模测试。 
@@ -14,6 +14,9 @@ CloudEmail ce = new CloudEmail("HTML 文本","xxxxxx@xxx.com");
 
 ce.start();
 
+
+
+# Cloud-Java-EMail -> English
 
 This is a lightweight extension based on the Java-Mail jar package, which is only 8KB. 
 I used multi-threading to send emails and currently only supports HTML text messages. 
