@@ -28,7 +28,7 @@ Follow-up ideas:
 
 ## Instructions:
 
-CloudEmail ce = new CloudEmail("HTML 文本","xxxxxx@xxx.com");
+CloudEmail ce = new CloudEmail("HTML Content","xxxxxx@xxx.com");
 
 ce.start();
 
