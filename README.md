@@ -4,6 +4,9 @@
 由于是花了二十分钟编写的，一次通过，也没有进行大规模测试。 
 期待我们一起完善它。 
 
+后续想法：
+  导入阿帕奇的邮件Jar，初始化选项可选择启用哪种邮件发送。
+
 This is a lightweight extension based on the Java-Mail jar package, which is only 8KB. 
 I used multi-threading to send emails and currently only supports HTML text messages. 
 It took twenty minutes to write, one pass, and no large-scale testing.
