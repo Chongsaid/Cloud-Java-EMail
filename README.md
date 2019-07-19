@@ -8,6 +8,11 @@
   导入阿帕奇的邮件Jar，初始化选项可选择启用哪种邮件发送。
 
 
+## 使用方法：
+
+CloudEmail ce = new CloudEmail("HTML 文本","xxxxxx@xxx.com");
+ce.start();
+
 
 This is a lightweight extension based on the Java-Mail jar package, which is only 8KB. 
 I used multi-threading to send emails and currently only supports HTML text messages. 
@@ -16,5 +21,11 @@ Look forward to working with us to improve it.
 
 Follow-up ideas:
    Import Apache Mail Jar, the initialization option can choose which mail to send.
+
+## Instructions:
+
+CloudEmail ce = new CloudEmail("HTML 文本","xxxxxx@xxx.com");
+ce.start();
+
 
 -From Google Translate
