@@ -25,7 +25,7 @@ public class EmailConfig {
 				System.out.println("配置文件错误");
 				System.out.println("Configuration file error");
 			}else {
-				if ( "true" == properties.get(debug) ) {
+				if ( "true".equals(properties.get(debug)) ) {
 					es.setDebug(true);
 				}else {
 					es.setDebug(false);
